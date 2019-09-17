@@ -1,4 +1,4 @@
-package com.malone.thirdexample;
+package com.malone.netty.thirdexample;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
@@ -17,7 +17,7 @@ public class MyChatClientInitializer extends ChannelInitializer<SocketChannel> {
         pipeline.addLast(new DelimiterBasedFrameDecoder(4096, Delimiters.lineDelimiter()));
         pipeline.addLast(new StringEncoder(CharsetUtil.UTF_8));
         pipeline.addLast(new StringDecoder(CharsetUtil.UTF_8));
-        pipeline.addLast(new MyChcatClientHandler());
+        pipeline.addLast(new MyChatClientHandler());
 
     }
 }

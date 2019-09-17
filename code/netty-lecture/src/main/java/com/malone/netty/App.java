@@ -1,4 +1,4 @@
-package com.malone;
+package com.malone.netty;
 
 /**
  * Hello world!

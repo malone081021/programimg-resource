@@ -1,4 +1,4 @@
-package com.malone.secondexample;
+package com.malone.netty.secondexample;
 
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
