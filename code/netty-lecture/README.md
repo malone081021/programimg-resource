@@ -47,6 +47,50 @@ mac homebrew 安装各种软件 thrift
 
 
 
+## IO 
+
+节点流/
+
+## 36 文件通道用法详解
+
+NioTest4
+
+只读Buffer / 直接Buffer
+
+## 37 Buffer 详解
+
+类型化的get和put
+
+```java
+buffer putInt() getInt()
+```
+
+`方法替换使用Tab`
+
+- **DirectByteBuffer** // 堆外内存 ，直接内存，**没有copy**，直接IO
+
+  > 通过在**DirectByteBuffer** 对象addres 应用本地内存，释放内存需要 `unsafe` 方法
+
+- 普通Buffer数据copy 
+
+ **从Java 内存空间数据 到 系统空间** ，【为什么copy，GC的影响】
+
+**再次和IO设别交互**
+
+## 39
+
+映射文件
+
+## 40 
+
+- 网络编程
+  - ServerSocket serverSocket
+  - bind 
+  -  Socket socket = serverSocket.accept // 阻塞
+  - 建立链接【端口】和数据传递[另一个端口]
+
+
+
 
 
 ## NIO 学习资源
