@@ -1,4 +1,4 @@
-package com.malone.secondexample;
+package com.malone.netty.secondexample;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
